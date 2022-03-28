@@ -1,0 +1,22 @@
+.error {
+  width: 50%;
+  margin: 30vh auto;
+  border-radius: 40px;
+  background-color: rgba(165, 42, 42, 0.349);
+  padding: 25px;
+  letter-spacing: 2px;
+  word-spacing: 4px4433434;
+  font-size: 1.5rem;
+}
+
+.error button {
+  padding: 7px 0;
+  width: 35%;
+  word-wrap: break-word;
+  border: none;
+  border-radius: 40px;
+  font-style: italic;
+  font-size: 1.2rem;
+  background-color: burlywood;
+  cursor: pointer;
+}

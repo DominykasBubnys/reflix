@@ -1,0 +1,87 @@
+.container {
+  width: 40%;
+  padding-top: 10vh;
+  margin: 0 auto;
+}
+
+.form_container {
+  background-color: rgba(29, 10, 10, 0.945);
+  box-shadow: 0 5px 15px rgba(246, 246, 245, 0.507);
+  border-radius: 23px;
+  width: 100%;
+  padding: 10px;
+  height: 50vh;
+  margin: 10px auto;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.form_image {
+  width: 20%;
+  border-radius: 50%;
+  display: block;
+  margin: 10px auto;
+}
+
+.form_input {
+  color: rgb(168, 126, 80);
+  text-align: center;
+  padding: 10px 20px;
+  margin: 20px auto;
+  width: 50%;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  transition-duration: 0.3s;
+  background-color: rgba(70, 22, 22, 0.945);
+}
+
+.submit_btn {
+  min-width: 25%;
+  display: block;
+  margin: 10px auto;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+  font-size: 1.2rem;
+  background-color: brown;
+  color: blanchedalmond;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+.switch_btn {
+  margin-top: 10px;
+  padding: 10px 30px;
+  border-radius: 30px;
+  color: aliceblue;
+  font-size: 1.1rem;
+  background-color: transparent;
+  transition-duration: 0.2s;
+  border: none;
+}
+
+.invalid {
+  border: 1px solid rgba(138, 8, 8, 0.657);
+}
+
+.switch_btn:hover {
+  box-shadow: 0 5px 15px rgba(246, 246, 245, 0.507);
+}
+
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    width: 80%;
+  }
+}

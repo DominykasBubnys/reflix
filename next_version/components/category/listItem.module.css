@@ -1,0 +1,52 @@
+.container {
+  color: aliceblue;
+  margin: 20px;
+  margin-top: 10vh;
+  width: 26%;
+  transform: translateX(0);
+  transition: all 0.5s ease-in-out;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  overflow: hidden;
+  align-items: flex-start;
+  box-shadow: 0 5px 15px rgba(246, 246, 245, 0.507);
+}
+
+.title {
+  margin: 0 auto;
+}
+
+.image {
+  width: 80%;
+  margin: 0 auto;
+  transition: 0.5s all ease-in-out;
+}
+
+.data {
+  padding-top: 10%;
+  width: 90%;
+  position: absolute;
+  text-align: center;
+  font-size: 1.5rem;
+  opacity: 0;
+  max-height: 90%;
+  transition: 0.5s all ease-in-out;
+  overflow: scroll;
+}
+
+.genres {
+  margin-bottom: 20px;
+}
+
+.genres p {
+  height: 30%;
+  margin: 10px;
+}
+
+.container:hover .image {
+  opacity: 0.1;
+}
+.container:hover .data {
+  opacity: 1;
+}

@@ -1,0 +1,10 @@
+.container {
+  padding-top: 10vh;
+}
+
+.title {
+  letter-spacing: 4px;
+  word-spacing: 6px;
+  text-shadow: 0px 5px 5px rgba(255, 255, 255, 0.4);
+  color: rgb(236, 217, 152);
+}

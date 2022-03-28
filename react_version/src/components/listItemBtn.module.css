@@ -1,0 +1,42 @@
+.container {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.container button {
+  cursor: pointer;
+  background-color: rgba(192, 118, 118, 0.294);
+  color: aliceblue;
+  border: none;
+  font-size: 1rem;
+  text-align: center;
+  width: 80%;
+  margin-top: 20px;
+  letter-spacing: 1px;
+  font-style: italic;
+  padding: 8px 0;
+  border-radius: 30px;
+  transition-duration: 0.5s;
+}
+
+/* .link {
+  cursor: pointer;
+  background-color: rgba(192, 118, 118, 0.294);
+  color: aliceblue;
+  border: none;
+  font-size: 1rem;
+  text-align: center;
+  width: 80%;
+  letter-spacing: 1px;
+  font-style: italic;
+  padding: 8px 0;
+  border-radius: 30px;
+  transition-duration: 0.5s;
+} */
+
+.container button:hover {
+  background-color: rgb(53, 14, 14);
+}
