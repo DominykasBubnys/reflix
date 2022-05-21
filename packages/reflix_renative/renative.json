@@ -1,0 +1,53 @@
+{
+    "platforms": {},
+    "plugins": {
+        "react": "source:rnv",
+        "react-art": "source:rnv",
+        "react-dom": "source:rnv",
+        "react-native": "source:rnv",
+        "@react-native-community/cli-platform-ios": "source:rnv",
+        "@react-native-community/cli": "source:rnv",
+        "react-native-tvos": "source:rnv",
+        "react-native-web": "source:rnv",
+        "next": "source:rnv",
+        "react-native-windows": "source:rnv",
+        "@react-native-windows/cli": "source:rnv",
+        "react-native-local-mongodb": "source:rnv"
+    },
+    "extendsTemplate": "renative.json",
+    "projectName": "rnv_doc_2",
+    "workspaceID": "rnv",
+    "defaults": {
+        "title": "Hello Renative",
+        "id": "com.mycompany.rnv_doc_2",
+        "supportedPlatforms": [
+            "ios",
+            "android",
+            "androidtv",
+            "firetv",
+            "androidwear",
+            "web",
+            "webtv",
+            "tizen",
+            "tvos",
+            "webos",
+            "macos",
+            "windows",
+            "tizenwatch",
+            "tizenmobile",
+            "kaios",
+            "firefoxos",
+            "firefoxtv",
+            "chromecast",
+            "xbox"
+        ]
+    },
+    "engines": {},
+    "templates": {
+        "renative-template-hello-world": {
+            "version": "0.35.4"
+        }
+    },
+    "currentTemplate": "renative-template-hello-world",
+    "isMonorepo": false
+}

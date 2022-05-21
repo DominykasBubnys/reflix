@@ -1,0 +1,51 @@
+{
+    "platforms": {},
+    "plugins": {
+        "react": "source:rnv",
+        "react-art": "source:rnv",
+        "react-dom": "source:rnv",
+        "react-native": "source:rnv",
+        "@react-native-community/cli-platform-ios": "source:rnv",
+        "@react-native-community/cli": "source:rnv",
+        "react-native-tvos": "source:rnv",
+        "react-native-web": "source:rnv",
+        "react-native-windows": "source:rnv",
+        "@react-native-windows/cli": "source:rnv"
+    },
+    "extendsTemplate": "renative.json",
+    "projectName": "rnv_tizen_app",
+    "workspaceID": "rnv",
+    "defaults": {
+        "title": "Hello Renative",
+        "id": "com.mycompany.rnv_tizen_app",
+        "supportedPlatforms": [
+            "ios",
+            "android",
+            "androidtv",
+            "firetv",
+            "androidwear",
+            "web",
+            "webtv",
+            "tizen",
+            "tvos",
+            "webos",
+            "macos",
+            "windows",
+            "tizenwatch",
+            "tizenmobile",
+            "kaios",
+            "firefoxos",
+            "firefoxtv",
+            "chromecast",
+            "xbox"
+        ]
+    },
+    "engines": {},
+    "templates": {
+        "renative-template-hello-world": {
+            "version": "0.36.0-canary.4"
+        }
+    },
+    "currentTemplate": "renative-template-hello-world",
+    "isMonorepo": false
+}

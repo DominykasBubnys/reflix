@@ -1,0 +1,11 @@
+{
+    "extendsTemplate": "renative-template-hello-world/appConfigs/base/renative.json",
+    "id": "app",
+    "common": {
+        "id": "com.mycompany.rnv_tizen_app",
+        "title": "Hello Renative",
+        "description": "ReNative App",
+        "buildSchemes": {}
+    },
+    "platforms": {}
+}
